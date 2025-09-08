@@ -12,19 +12,19 @@ A decentralized raffle application built with Next.js, wagmi, and RainbowKit, po
 
 • ✅ Live contract data:
 
-• Current raffle state (Open or Calculating)
+    • Current raffle state (Open or Calculating)
 
-• Current number of players
+    • Current number of players
 
-• Most recent winner
+    • Most recent winner
 
-• Entrance fee (in ETH)
+    • Entrance fee (in ETH)
 
 • ✅ Real-time event listeners:
 
-• Notify when a player enters the raffle
+    • Notify when a player enters the raffle
 
-• Notify when a winner is picked
+    • Notify when a winner is picked
 
 • ✅ User-friendly notifications via [react-hot-toast](https://react-hot-toast.com/)
 
