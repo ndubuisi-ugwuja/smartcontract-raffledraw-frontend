@@ -2,7 +2,7 @@
 
 A decentralized raffle application built with Next.js, wagmi, and RainbowKit, powered by an Ethereum smart contract. Users can connect their wallet, enter the raffle by paying the entrance fee, and watch live updates of the raffle state, players, and winners.
 
-[Live preview](#)
+[Live preview](https://smartcontract-raffledraw.vercel.app)
 
 ## 🚀 Features
 
