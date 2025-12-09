@@ -3,13 +3,13 @@
 import "@rainbow-me/rainbowkit/styles.css";
 import { getDefaultConfig, RainbowKitProvider } from "@rainbow-me/rainbowkit";
 import { WagmiProvider } from "wagmi";
-import { mainnet, sepolia } from "wagmi/chains";
+import { sepolia, holesky } from "wagmi/chains";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 const config = getDefaultConfig({
     appName: "Raffle Dapp",
     projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || "",
-    chains: [sepolia, mainnet], // add your chain(s) here
+    chains: [sepolia, holesky], // add your chain(s) here
 });
 
 const queryClient = new QueryClient();
